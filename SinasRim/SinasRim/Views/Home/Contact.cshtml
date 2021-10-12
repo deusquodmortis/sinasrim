@@ -1,0 +1,65 @@
+﻿@model SinasRim.Models.mail
+@{
+    ViewBag.Title = "Contact";
+}
+
+
+<div class="container" style="margin-top:100px;">
+
+    <div class="row" style="margin-top:100px; margin-bottom:100px;">
+        <div class="container col-md-4">
+            <h1 style="margin-bottom:50px;">İletişim</h1>
+            <ul class="list-unstyled">
+
+                <li class="mb-3"> <i class="fas fa-phone-square-alt text-info me-2"></i></i><strong>Telefon : </strong>&nbsp; 0543 525 9569</li>
+                <li class="mb-3"> <i class="fas fa-phone-square-alt text-info me-2"></i><strong>Telefon : </strong>&nbsp; 0224 713 5028</li>
+                <li class="mb-3"> <i class="fas fa-envelope text-info me-2"></i><strong>E-Posta : </strong>&nbsp; contact@sinasrim.com </li>
+                <li class="mb-3">
+                    <i class="fas fa-map-marker-alt text-info me-2"></i><strong>Adres : </strong>&nbsp;Orhaniye, Ankara Cd. No:95 16400 İnegöl/Bursa
+                </li>
+            </ul>
+
+        </div>
+            <div runat="server" class="container col-md-4">
+
+                
+                <h1 style="margin-bottom:50px;">Bize Ulaşın</h1>
+                <form action="#" method="post">
+                    <div class="input-group-icon m-2">
+                        <textarea class="form-control " name="icerik" placeholder="Mesajınızı Girin "></textarea>
+
+                    </div>
+                    <div class="row g-0 align-items-center">
+                        <div class="col m-2">
+                            <input class="form-control " type="text" name="name" placeholder="Ad " aria-label="ad" />
+
+                        </div>
+                        <div class="col m-2">
+                            <input class="form-control " type="text" name="surname" placeholder="Soyad" aria-label="soyad" />
+
+                        </div>
+                    </div>
+                    <div class="row g-0 align-items-center m-2">
+
+                        <div class="col ">
+                            <div class="input-group-icon">
+                                <input class="form-control form-little-squirrel-control" name="mailfrom" type="email" placeholder="Email Girin " aria-label="email" /><i class="fas fa-envelope input-box-icon"></i>
+
+                            </div>
+                        </div>
+                        <div class="col-auto">
+
+                            <button class="btn btn-primary rounded-0" type="submit">Gönder</button>
+                        </div>
+
+
+                    </div>
+                </form>
+
+
+            </div>
+    </div>
+    <h1 class="text-center" style="margin-bottom:50px;">Konum</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d419.16732550405817!2d29.524493880768222!3d40.077592747368264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cbc9429ae29549%3A0xf5b4c6e339bb414b!2sUslu%20Apart%20Otel%20%C4%B0sletmeciligi!5e0!3m2!1str!2str!4v1631870343218!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</div>

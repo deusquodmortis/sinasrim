@@ -1,0 +1,160 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Şinas Otomotiv</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="~/Content/assets/css/theme.css" rel="stylesheet" />
+    
+
+</head>
+
+
+<body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="bg-primary py-2 d-none d-sm-block">
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto d-none d-lg-block">
+                        <p class="my-2 fs--1"><i class="fas fa-map-marker-alt me-3"></i><span>Orhaniye, Ankara Cd. No:95, 16400 İnegöl/Bursa </span></p>
+                    </div>
+                    <div class="col-auto ms-md-auto order-md-2 d-none d-sm-block">
+                        <ul class="list-unstyled list-inline my-2">
+                            <li class="list-inline-item"><a class="text-decoration-none" href="https://www.facebook.com/"><i class="fab fa-facebook-f text-900"></i></a></li>
+                            <li class="list-inline-item"><a class="text-decoration-none" href="https://tr.pinterest.com/"><i class="fab fa-pinterest text-900"></i></a></li>
+                            <li class="list-inline-item"><a class="text-decoration-none" href="https://twitter.com/?lang=tr"><i class="fab fa-twitter text-900"></i></a></li>
+                            <li class="list-inline-item"><a class="text-decoration-none" href="https://www.instagram.com/"><i class="fab fa-instagram text-900"> </i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <p class="my-2 fs--1"><i class="fas fa-envelope me-3"></i><a class="text-900" href="mailto:contact@sinasrim.com">contact@sinasrim.com </a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container">
+                <a class="navbar-brand" href="/Home/Index"><img src="~/Content/assets/img/rimicon1.png" height="45" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+                <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+                        <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="/Home/Index">Anasayfa</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="/Home/About">Hakkımızda</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="/Home/Catalog">E-Katalog</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="/Home/Contact">İletişim</a></li>
+                    </ul><a class="btn btn-primary order-1 order-lg-0" href="/Home/Contact">Fiyat Al <i class="far fa-paper-plane"></i></a>
+
+                </div>
+            </div>
+        </nav>
+       
+        @RenderBody();
+
+        <section class="bg-secondary">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-6 mb-4 order-0 order-sm-0">
+                        <a class="text-decoration-none" href="#"><img src="~/Content/assets/img/rimicon1.png" height="51" alt="" /></a>
+                        <p class="text-light my-4"> <i class="fas fa-map-marker-alt me-3"></i><span class="text-light">Orhaniye, Ankara Cd. No:95  &nbsp;</span><br />16400 İnegöl/Bursa</p>
+                        <p class="text-light"> <i class="fas fa-envelope me-3"> </i><a class="text-light" href="mailto:contact@sinasrim.com">contact@sinasrim.com </a></p>
+                        <p class="text-light"> <i class="fas fa-phone-alt me-3"></i><a class="text-light" href="">tel:0224 713 5028 (Support)</a></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 mb-3 order-2 order-sm-1">
+                        <h5 class="lh-lg fw-bold mb-4 text-light font-sans-serif">Topluluk </h5>
+                        <ul class="list-unstyled mb-md-4 mb-lg-0">
+                            <li class="lh-lg"><a class="text-200" href="/Home/Ref">Referanslarımız</a></li>
+                            <li class="lh-lg"><a class="text-200" href="/Home/Index">Çözüm Ortaklarımız</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
+                        <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif">Bilgi</h5>
+                        <ul class="list-unstyled mb-md-4 mb-lg-0">
+                            <li class="lh-lg"><a class="text-200" href="/Home/About">Hakkımızda</a></li>
+                            <li class="lh-lg"><a class="text-200" href="/Home/Contact">İletişim</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
+                        <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif"> Fazlası</h5>
+                        <ul class="list-unstyled mb-md-4 mb-lg-0">
+                            <li class="lh-lg"><a class="text-200" href="/Home/Catalog">E-Katalog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+        <section class="py-0" style="margin-top: -5.8rem;">
+            <div class="container bg-primary">
+                <div class="row justify-content-md-between justify-content-evenly py-4">
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+                        <p class="fs--1 my-2 fw-bold">All rights Reserved &copy; Şinas Otomotiv, 2021</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="~/Content/vendors/popperjs/popper.min.js"></script>
+    <script src="~/Content/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Content/vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="~/Content/vendors/fontawesome/all.min.js"></script>
+    <script src="~/Content/assets/js/theme.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Rubik:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+</body>
+
+</html>
